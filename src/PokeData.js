@@ -27,7 +27,7 @@ function PokeData(props) {
     )
   } else {
     return (
-      <Loading />
+      <Loading id={id}/>
     )
   }
 }

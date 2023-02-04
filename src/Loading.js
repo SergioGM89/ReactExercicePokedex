@@ -2,11 +2,12 @@ import './loader.css'
 
 function Loading(props) {
   
-  // Your code here
+  const {id} = props;
 
   return (
     <div className="loading">
       <div className="loader"></div>
+      Cargando datos del pokemonID: {id}
     </div>
   )
 }
